@@ -3,7 +3,7 @@
 import { useState, useEffect, useRef } from 'react';
 import { UploadCloud, X, Plus, Image as ImageIcon } from 'lucide-react';
 
-const API = 'http://   https://colombo-plan-full-production.up.railway.app';
+const API = 'https://colombo-plan-full-production.up.railway.app';
 
 export default function ProgrammeEditor({ fixedSlug, fixedTitle }) {
   const [programId, setProgramId] = useState(null);

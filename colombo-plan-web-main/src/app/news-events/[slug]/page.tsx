@@ -5,7 +5,7 @@ import { useParams } from 'next/navigation';
 import Link from 'next/link';
 import { Newspaper, ArrowLeft, FileText, Download } from 'lucide-react';
 
-const API = 'http://   https://colombo-plan-full-production.up.railway.app';
+const API = 'https://colombo-plan-full-production.up.railway.app';
 
 export default function NewsEventArticlePage() {
   const params = useParams();

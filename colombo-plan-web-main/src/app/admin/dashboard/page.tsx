@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 import { FolderOpen, Newspaper, FileText, Clock } from 'lucide-react';
 
-const API = 'http://   https://colombo-plan-full-production.up.railway.app';
+const API = 'https://colombo-plan-full-production.up.railway.app';
 
 export default function AdminDashboard() {
   const [adminName] = useState('Secretariat Admin');

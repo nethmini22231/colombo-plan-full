@@ -3,7 +3,7 @@
 import { useState, useEffect, useRef } from 'react';
 import { UploadCloud, Pencil, Trash2, Plus, ArrowLeft, FileText, X, Image as ImageIcon } from 'lucide-react';
 
-const API = 'http://   https://colombo-plan-full-production.up.railway.app';
+const API = 'https://colombo-plan-full-production.up.railway.app';
 
 export default function PublicationsAdmin() {
   const [items, setItems] = useState([]);

@@ -3,7 +3,7 @@
 import { useState, useEffect, useRef } from 'react';
 import { Building2, Pencil, Trash2, Plus, X, UploadCloud, FileText } from 'lucide-react';
 
-const API = 'http://   https://colombo-plan-full-production.up.railway.app';
+const API = 'https://colombo-plan-full-production.up.railway.app';
 
 function slugify(text) {
   return text

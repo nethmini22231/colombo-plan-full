@@ -8,7 +8,7 @@ export default function HomePage() {
   const [newsItems, setNewsItems] = useState<any[]>([]);
 
   useEffect(() => {
-    fetch('http://   https://colombo-plan-full-production.up.railway.app/api/programs')
+    fetch('https://colombo-plan-full-production.up.railway.app/api/programs')
       .then((res) => res.json())
       .then((data) => {
         if (Array.isArray(data)) {
@@ -17,7 +17,7 @@ export default function HomePage() {
       })
       .catch((err) => console.error('Error fetching programs from backend:', err));
 
-    fetch('http://   https://colombo-plan-full-production.up.railway.app/api/news-events')
+    fetch('https://colombo-plan-full-production.up.railway.app/api/news-events')
       .then((res) => res.json())
       .then((data) => {
         const published = data.filter((item: any) => item.status === 'Published');
@@ -26,7 +26,7 @@ export default function HomePage() {
           title: item.title,
           desc: item.description || '',
           image: item.imageUrl
-            ? (item.imageUrl.startsWith('http') ? item.imageUrl : `http://   https://colombo-plan-full-production.up.railway.app${item.imageUrl}`)
+            ? (item.imageUrl.startsWith('http') ? item.imageUrl : `https://colombo-plan-full-production.up.railway.app${item.imageUrl}`)
             : 'https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=800&auto=format&fit=crop&q=80',
           link: `/news-events/${item.slug || item.id}`,
         }));

@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 import { RefreshCw, Search, ClipboardList } from 'lucide-react';
 
-const API = 'http://   https://colombo-plan-full-production.up.railway.app';
+const API = 'https://colombo-plan-full-production.up.railway.app';
 
 export default function ActivityLogsAdmin() {
   const [logs, setLogs] = useState([]);

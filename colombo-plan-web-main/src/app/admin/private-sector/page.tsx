@@ -10,7 +10,7 @@ import {
   Building2
 } from 'lucide-react';
 
-const API = 'http://   https://colombo-plan-full-production.up.railway.app';
+const API = 'https://colombo-plan-full-production.up.railway.app';
 
 type PrivateSectorItem = {
   id: number;
