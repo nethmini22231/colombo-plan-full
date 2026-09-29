@@ -4,7 +4,7 @@ import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { useParams } from 'next/navigation';
 
-const API = 'http://localhost:8080';
+const API = 'http://   https://colombo-plan-full-production.up.railway.app';
 
 const THEME_COLORS = {
   blue: '#1d4ed8',

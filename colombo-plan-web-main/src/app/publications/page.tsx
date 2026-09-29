@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { FileText } from 'lucide-react';
 
-const API = 'http://localhost:8080';
+const API = 'http://   https://colombo-plan-full-production.up.railway.app';
 
 export default function PublicationsPage() {
   const [activeCategory, setActiveCategory] = useState('All');

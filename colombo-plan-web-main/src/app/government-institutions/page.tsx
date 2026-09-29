@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 
-const API = 'http://localhost:8080';
+const API = 'http://   https://colombo-plan-full-production.up.railway.app';
 
 interface Institution {
   id: number;
@@ -24,7 +24,7 @@ export default function GovernmentInstitutionsPage() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch('http://localhost:8080/api/institutions')
+    fetch('http://   https://colombo-plan-full-production.up.railway.app/api/institutions')
       .then((res) => res.json())
       .then((data) => {
         setDataList(data);

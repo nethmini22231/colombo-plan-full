@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
 
-const API = 'http://localhost:8080';
+const API = 'http://   https://colombo-plan-full-production.up.railway.app';
 
 export default function AdminLoginPage() {
   const [username, setUsername] = useState('');

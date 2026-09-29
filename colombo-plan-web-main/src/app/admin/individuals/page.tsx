@@ -10,7 +10,7 @@ import {
   GraduationCap
 } from 'lucide-react';
 
-const API = 'http://localhost:8080';
+const API = 'http://   https://colombo-plan-full-production.up.railway.app';
 
 type IndividualsItem = {
   id: number;

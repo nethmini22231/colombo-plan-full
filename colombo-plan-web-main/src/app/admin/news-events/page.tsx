@@ -6,7 +6,7 @@ import {
   Bold, Italic, Heading2, List, Link2
 } from 'lucide-react';
 
-const API = 'http://localhost:8080';
+const API = 'http://   https://colombo-plan-full-production.up.railway.app';
 
 function slugify(text) {
   return text

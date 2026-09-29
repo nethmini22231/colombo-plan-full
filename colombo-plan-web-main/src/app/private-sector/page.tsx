@@ -19,7 +19,7 @@ export default function PrivateSectorPage() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch('http://localhost:8080/api/private-sector/slug/private-sector')
+    fetch('http://   https://colombo-plan-full-production.up.railway.app/api/private-sector/slug/private-sector')
       .then((res) => {
         if (res.status === 404) {
           // Data database eke thawama nathi, error widiyata handle karanna epa
